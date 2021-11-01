@@ -1,0 +1,12 @@
+body {
+    background: powderblue;
+}
+
+.test {
+    color: grey;
+    font-size: 40px;
+    font-family: Lobster;
+    border-size: 10px;
+    border-style: solid;
+    border-radius: 20px;
+}
