@@ -1,60 +1,42 @@
-<head>
-    <link href="https://fonts.googleapis.com/css2?family=Lobster" rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-    <title> yoooo </title>
-</head>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>JS For Beginners</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1>JS For Beginners</h1>
+    </header>
 
-<body>
-    <h1 class="test">This is the title yay ^-^</h1>
+    <section class="container">
+      <form id="my-form">
+        <h1>Add User</h1>
+        <div class="msg"></div>
+        <div>
+          <label for="name">Name:</label>
+          <input type="text" id="name">
+        </div>
+        <div>
+          <label for="email">Email:</label>
+          <input type="text" id="email">
+        </div>
+        <input class="btn" type="submit" value="Submit">
+      </form>
 
-    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-    tempor incididunt ut labore et dolore magna aliqua.</p>
+      <ul id="users"></ul>
 
-    <h2>This is a heading</h2>
-
-    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse
-    cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-
-    <ul>
-        <li>Excepteur sint occaecat</li>
-        <li>cupidatat non proident</li>
-        <li>sunt in culpa.</li>
-    </ul>
-    </p>
-
-    <h2>Services</h2>
-
-    <table border="1">
-        <thead>
-            <tr>
-                <td>Lorem</td>
-                <td>Ipsum</td>
-                <td>Dolor</td>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Sit</td>
-                <td>Amet</td>
-                <td>Consectetur</td>
-            </tr>
-            <tr>
-                <td>Adipisicing</td>
-                <td>Elit</td>
-                <td>Sed</td>
-            </tr>
-
-        </tbody>
-    </table>
+      <!-- <ul class="items">
+        <li class="item">Item 1</li>
+        <li class="item">Item 2</li>
+        <li class="item">Item 3</li>
+      </ul> -->
+    </section>
 
 
-    <h2>Contact Us</h2>
-
-    <form>
-        <input type="text" placeholder="Full Name">
-        <input type="email" placeholder="Email">
-        <textarea></textarea>
-        <button>Submit</button>
-
-    </form>
-</body>
+    <script src="main.js"></script>
+  </body>
+</html>
